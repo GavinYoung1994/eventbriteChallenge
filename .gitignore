@@ -1,6 +1,4 @@
-.idea
-node_modules
+/node_modules
 npm-debug.log
-public
 .DS_Store
-coverage
+/*.env
