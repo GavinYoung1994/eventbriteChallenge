@@ -1,0 +1,23 @@
+{
+  "name": "coding_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinYoung1994/eventbriteChallenge.git"
+  },
+  "author": "Gavin Young <gavinyoung1994@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GavinYoung1994/eventbriteChallenge/issues"
+  },
+  "homepage": "https://github.com/GavinYoung1994/eventbriteChallenge#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.67.0"
+  }
+}

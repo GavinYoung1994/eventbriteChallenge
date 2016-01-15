@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Coding Challenge</title>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  		<script src="bower_components/angular/angular.js"></script>
+  		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  		<script src="app.js"></script>
+    </head>
+    <body>
+      <div ng-controller="chartCtrl">
+        <img id="loading" src="loading.gif" ng-show="loading">
+        <div id="chart_div" style="width: 900px; height: 500px;"></div>
+        <button ng-click="previous()">Previous Page</button>
+        <p>Page {{currentPage}}</p>
+        <button ng-click="next()">Next Page</button>
+      </div>
+    </body>
+</html>
