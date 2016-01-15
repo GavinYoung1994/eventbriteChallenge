@@ -1,4 +1,4 @@
-Description
+Description:
 This app collects popular events from Eventbrite using Eventbrite API and visualize them into a bubble chart.
 Each bubble represents an event, displaying the event's name, date and time when mouse over. Clicking on the bubble takes you to the event page at Eventbrite.
 The events are sorted by date and time on the graph.
